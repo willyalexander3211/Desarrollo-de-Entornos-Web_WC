@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>EJERCICIO 06</title>
+</head>
+
+<body>
+    
+    <h1>Mi primera página</h1>
+    <p>Mi primer párrafo</p>
+    
+    <p id="demo"></p>
+    
+    <script>
+        
+        document.write("Bienvenido a DEW");
+        
+        
+        var text = "";
+        var i;
+        for (i=0; i<5; i++){
+            text += "El número es " +i+ "<br>";
+        }
+        document.getElementById("demo").innerHTML = text + "<br>";
+        
+        
+        
+        var i;
+        var salto = "<br>";
+        for(i=0; i<10; i++){
+            document.getElementById("demo").innerHTML += i + "<br>";
+        }
+        
+        
+        
+        var i;
+        for(i=5; i<51; i+=5){
+            document.getElementById("demo").innerHTML+=i + "<br>";
+        }
+        
+        
+        
+        var i;
+        for(i=10; i>0; i-=1){
+            document.getElementById("demo").innerHTML+=i + "<br>";
+        }
+
+        
+        
+        var i;
+        for(i=1; i<10; i+=2){
+            document.getElementById("demo").innerHTML+=i + "<br>";
+        }
+    
+    </script>
+
+    
+</body>
+</html>
