@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="../js/codigos-indice.js"></script>
+
+    
+</head>
+
+<body>
+    
+    <div id="marco">
+    <h1 id="h1banner">Titulo</h1>
+        
+    <p id="cal"></p>
+    
+    <img id="imgbaner" src="../imagenes/baner/baner1.jpg" alt="">
+        
+    <div id="divfecha"></div>
+         
+    <div id="divhora"></div>
+        
+    
+        
+    <p class="parrafo">La pesca se define como aquella actividad que se realiza para extraer peces. Puede realizarse en aguas continentales o marítimas. Ancestralmente, la pesca ha consistido en una de las actividades económicas más tempranas de muchos pueblos del mundo."</p>
+    
+    <p class="parrafo"><i>De acuerdo con estadísticas de la FAO y sus cifras del año 2010 (publicadas en 2012), el número total de pescadores y piscicultores en el mundo se estima en 54,8 millones. La misma estadística indica que el 87 % de las personas empleadas en el sector pesquero se encuentran en Asia. Mientras que el crecimiento de la actividad pesquera de captura se ha detenido o incluso muestra una cierta tendencia a la disminución, se observa un aumento sostenido en la cantidad de personas ocupadas en la acuicultura.</i>
+    </p>
+    
+    <p class="parrafo"><strong>Entre las artes de pesca más comunes se pueden citar la de arrastre, la pesca al cerco, la pesca al curricán, la almadraba, el trasmallo, la pesca a palangre y las redes de deriva.
+
+    Pero para llevarlas a cabo existen varias modalidades, que se suelen dividir en pesca deportiva y comercial. Esta última se puede considerar industrial, artesanal o sustentable, dependiendo de la envergadura de las técnicas empleadas y del carácter de la actividad.</strong>
+    </p>
+        
+    </div> 
+    
+    <script>
+        var titu = document.getElementById("h1banner");
+        titu.innerHTML = "Todo Pesca";
+        titu.style.color = "red";
+        titu.style.textAlign = "center";
+        
+        var im = document.getElementById("imgbaner");
+        im.style.width = "100%";
+        im.style.height = "150px";
+        
+        var f = document.getElementById("cal");
+        f.innerHTML = "Fecha: 12/04/2020";
+        f.style.color = "red";
+        
+        var p = document.getElementsByClassName("parrafo");
+        p[0].style.color = "purple";
+        p[1].style.color = "blue";
+        p[2].style.color = "green";
+        
+    </script>
+    
+</body>
+
+</html>
